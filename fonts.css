@@ -1,0 +1,18 @@
+@font-face {
+  font-family: newpoetic;
+  src: url(https://cdn.glitch.global/a63fb908-7ee2-470c-b8ed-2d6990d99140/newpoetic.otf?v=1736117775308);
+
+}
+
+@font-face {
+  font-family: flora;
+  src: url(https://cdn.glitch.global/a63fb908-7ee2-470c-b8ed-2d6990d99140/floraandfauna.otf?v=1736117802089);
+
+}
+
+
+
+::selection {
+  background: red;
+  color:white;
+}

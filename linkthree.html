@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="icon" type="image/x-icon" href="https://cdn.glitch.global/a63fb908-7ee2-470c-b8ed-2d6990d99140/Screenshot%202024-04-29%20232001.png?v=1736117773812">
+    <link rel="stylesheet" href="fonts.css" />
+
+    <title>field note</title>
+    <style>
+        body{
+            overflow: scroll;
+        }
+        ::-webkit-scrollbar {
+  background-color: transparent;
+}
+        h1 {
+        font-size: 3rem;
+        font-style: italics;
+        font-family: newpoetic;
+        letter-spacing: 0.7rem;
+        }
+
+                .word:hover{
+
+        color: whitesmoke;
+        }
+        
+        
+                    a:link {
+                text-decoration: none;
+            }
+
+            a:visited {
+                text-decoration: none;
+}
+
+
+    
+
+        img{
+            width: 40%;
+        }
+    .stick{
+        position: fixed;
+        bottom: -235px;
+        right: 367px;
+    }
+    </style>
+    </head>
+  </head>
+
+  <body>
+
+
+
+
+<h1 id="tospan">
+    there is hidden sweetness in being lost in method. i have known the simmering of a delight because i have died and become alive over and over. to know hunger is to carry a thirst. it clears the fog, makes form ecstatic. the roots, riotous beyond corporeal resonance. 
+</h1>
+<script>
+    function wrapWordsInSpans(elementId) {
+    const element = document.getElementById(elementId);
+    const text = element.textContent;
+    const words = text.split(' ');
+
+    const newContent = words.map(word => `<span class="word">${word}</span>`).join(' ');
+    element.innerHTML = newContent;
+    }
+
+    wrapWordsInSpans('tospan'); 
+
+
+</script>
+<a href="linkfour.html"><img class="stick" src="https://cdn.glitch.global/a63fb908-7ee2-470c-b8ed-2d6990d99140/buddhartifact.png?v=1736117800021"></a>
+
+  </body>
+
+</html>
