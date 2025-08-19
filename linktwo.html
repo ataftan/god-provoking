@@ -1,102 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="style.css" /> -->
-    <link rel="icon" type="image/x-icon" href="https://cdn.glitch.global/a63fb908-7ee2-470c-b8ed-2d6990d99140/Screenshot%202024-04-29%20232001.png?v=1736117773812">
-    <link rel="stylesheet" href="fonts.css" />
 
-    <title>field note</title>
-   
-    <style>
-        body{
-            overflow: scroll;
-        }
-        ::-webkit-scrollbar {
-  background-color: transparent;
-}
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="stylelink.css" />
+  <link rel="icon" type="image/x-icon"
+    href="https://cdn.glitch.global/a63fb908-7ee2-470c-b8ed-2d6990d99140/Screenshot%202024-04-29%20232001.png?v=1736117773812">
+  <link rel="stylesheet" href="fonts.css" />
 
-        h1{
-        font-size: 3rem;
-        font-style: italics;
-        font-family: newpoetic;
-        letter-spacing: 0.7rem;
-        }
+  <title>field note</title>
 
-        
-       .word:hover{
-
-            color: whitesmoke;
-        }
-        
-        
-                    a:link {
-                text-decoration: none;
-            }
-
-            a:visited {
-                text-decoration: none;
-}
-
-
-    
-
-        img{
-            width: 40%;
-          -moz-user-select: none;
-          -webkit-user-select: none;
-          user-select: none;
-        }
-        .maina{
-            width:90%;
-        }
-      .maina img{
-          pointer-events: none;
-
-      }
-    .stick{
-        position: fixed;
-        bottom: -235px;
-        right: 367px;
-      
-    }
-    </style>
+  <style>
   
-    </head>
 
 
-  <body>
-    
-    <h1 id="tospan">
-      A peripheral vision is indirect, occurs outside the point of fixation. To look through the “corner of one’s eye”; this can happen upon reflex. Chasing a shadow in the pursuance of desire: to choose the absence of light and immerse oneself in a robust garden of fictions. their is a familiarity with gaps beginnings present. a loophole of retreat. pay attention to the forms of namelessness.
-        
-    </h1>
-    <script>
-        function wrapWordsInSpans(elementId) {
-        const element = document.getElementById(elementId);
-        const text = element.textContent;
-        const words = text.split(' ');
-
-        const newContent = words.map(word => `<span class="word">${word}</span>`).join(' ');
-        element.innerHTML = newContent;
-        }
-
-        wrapWordsInSpans('tospan'); 
 
 
-    </script>
+    /* img {
+      width: 40%;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
+    }
 
-    <img class="maina" src="https://cdn.glitch.global/a63fb908-7ee2-470c-b8ed-2d6990d99140/houseline.png?v=1736117797825">
-    <br>
-    <br>
-    <br>
-    <br>
+    .maina {
+      width: 90%;
+    }
+
+    .maina img {
+      pointer-events: none;
+
+    } */
+
    
-    <a href="linkthree.html"><img class="stick" src="https://cdn.glitch.global/a63fb908-7ee2-470c-b8ed-2d6990d99140/buddhartifact.png?v=1736117800021"></a>
+  </style>
+
+</head>
+
+
+<body>
+
+
+  
+  <div class="container">
+
+<div class="main">
+      <div>
+        <h1 id="tospan">
+          A peripheral vision is indirect, occurs outside the point of fixation. To look through the “corner of one’s
+          eye”; this can happen upon reflex. Chasing a shadow in the pursuance of desire: to choose the absence of light
+          and immerse oneself in a robust garden of fictions. their is a familiarity with gaps beginnings present. a
+          loophole of retreat. pay attention to the forms of namelessness.
+
+        </h1>
+
+
+        <!-- <img class="maina"
+          src="https://cdn.glitch.global/a63fb908-7ee2-470c-b8ed-2d6990d99140/houseline.png?v=1736117797825"> -->
+      </div>
+      <div>
+        <a href="linkthree.html"><img class="stick" src="assets/button.png"></a>
+      </div>
+
+
+      <script src="script.js"></script>
+      </div>
+      </div>
+  
 
 </body>
 
 </html>
-
