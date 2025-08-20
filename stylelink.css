@@ -143,6 +143,7 @@
 
      h1 {
          font-size: 1.6em;
+         font-weight: 0;
          font-style: italics;
          font-family: newpoetic;
          letter-spacing: 0.3rem;
