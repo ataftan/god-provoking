@@ -9,9 +9,9 @@
 
  }
 
-::-webkit-scrollbar {
-  background-color: transparent;
-}
+ ::-webkit-scrollbar {
+     background-color: transparent;
+ }
 
  .container {
      overflow: hidden;
@@ -25,11 +25,11 @@
 
 
  .main {
-     flex: 1;   
+     flex: 1;
 
-overflow: hidden;
+     overflow: hidden;
      display: grid;
-     grid-template-rows: auto auto;
+     grid-template-rows: 2fr 100px;
      gap: 0px;
      margin: 0;
      padding: 0;
@@ -42,10 +42,10 @@ overflow: hidden;
      overflow-y: auto;
      grid-column: 1;
      margin: 0;
-      max-height: 80vh;
+     max-height: 80vh;
      background-color: rgb(255, 255, 255);
 
-     padding:1.2em 0 0 1em;
+     padding: 1.2em 0 0 1em;
 
  }
 
@@ -104,25 +104,45 @@ overflow: hidden;
      text-decoration: none;
  }
 
-a:hover{
-            color: grey;
+ a:hover {
+     color: grey;
 
-}
+ }
 
-#citation {
-        padding: 0.5em;
-      }
+ #citation {
+     padding: 0.5em;
+ }
 
 
  .rotated {
      transform: rotate (45deg);
  }
 
+ @media only screen and (max-width:375px) {
+  
+    .main>div:nth-child(1) {
+     background-color: rgb(255, 255, 255);
+
+     padding: 0em 0 0 0em;
+
+ }
+ }
+
+  .main>div:nth-child(2) {
+         background-color: rgb(184, 11, 11);
+
+     padding: 0 0 1em 0;
+
+
+
+
+ }
+ 
 
  @media only screen and (max-width:600px) {
 
      h1 {
-         font-size: 1.8em;
+         font-size: 1.6em;
          font-style: italics;
          font-family: newpoetic;
          letter-spacing: 0.3rem;
@@ -135,3 +155,4 @@ a:hover{
 
      }
  }
+
