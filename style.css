@@ -1,12 +1,12 @@
 @font-face {
   font-family: flora;
-  src: url(https://cdn.glitch.global/a63fb908-7ee2-470c-b8ed-2d6990d99140/floraandfauna.otf?v=1736117802089);
+  src: url(assets/floraandfauna.otf);
 
 }
 
 @font-face {
   font-family: newpoetic;
-  src: url(https://cdn.glitch.global/a63fb908-7ee2-470c-b8ed-2d6990d99140/newpoetic.otf?v=1736117775308);
+  src: url(assets/newpoetic.otf);
 
 }
 
@@ -26,15 +26,6 @@ h1{
   font-size: 3rem;
 }
 
-  /* .bg {
-    background-image:url(https://cdn.glitch.global/a63fb908-7ee2-470c-b8ed-2d6990d99140/shadowtrees.png?v=1736142898239);
-  height: 100%;
-    background-size: cover;
-  }
-  .bg img{
-    margin: 0 auto;
-    width:100%;
-  } */
 
 .main {
   position: relative;
@@ -158,6 +149,16 @@ font-style: italic;} */
 .layout {
   float: right;
 }
+.fixhead {
+  position: fixed;
+  top:-10px;
+}
+
+
+h1{
+  font-size: 2rem;
+
+}
 
 }
 
@@ -172,7 +173,12 @@ font-style: italic;} */
   .info {
         text-align: left;
         font-size: 2vw;
+        max-width: 30%;
   
+  }
+
+  .fixhead{
+    left:10px;
   }
 
 
